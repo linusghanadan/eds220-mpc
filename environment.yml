@@ -1,0 +1,15 @@
+name: eds220-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - rioxarray=0.14.1
+  - geopandas=0.13.2
+  - numpy=1.24.3
+  - python=3.11.4
+  - matplotlib=3.7.1
+  - ipykernel
+  - pip=23.3.1
+  - pip:
+    - planetary-computer==1.0.0
+    - pystac-client==0.7.5
